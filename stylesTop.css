@@ -1,0 +1,29 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+nav ul{
+    /*essential*/
+    list-style-type: none;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    top: 0;
+    /*non essential*/
+    background: green;
+    width: 100%;
+}
+nav a{
+    /*essential*/
+    text-decoration: none;
+    float: left;
+    display: block;
+    padding: 14px 16px;
+    /*non essential*/
+    color: white;
+}
+nav a:hover{
+    background: black;
+    cursor: pointer;
+}
