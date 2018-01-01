@@ -10,9 +10,10 @@ nav ul{
     padding: 0;
     position: fixed;
     top: 0;
+    width: 100%;
     /*non essential*/
     background: green;
-    width: 100%;
+    font-size: 20px;
 }
 nav a{
     /*essential*/
@@ -26,4 +27,15 @@ nav a{
 nav a:hover{
     background: black;
     cursor: pointer;
+}
+/*responsive*/
+@media only screen and (max-width: 650px){
+    nav ul{
+        width: 100%;
+    }
+    nav a{
+        float: none;
+        text-align: center;
+        font-size: 25px;
+        border-bottom: white solid 1px;    }
 }
